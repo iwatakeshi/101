@@ -27,13 +27,13 @@ module.exports = function(arrOrIndexer, indexer) {
     }
     return indexBy(indexer);
   }
-}
+};
 
 function indexBy (indexer) {
   if (isString(indexer)) {
     indexer = pluck(indexer);
   }
-  return function(prev, cur, index, arr) {
+  return function(prev, cur) {
     prev[indexer(cur)] = cur;
     return prev;
   };
