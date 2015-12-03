@@ -8,7 +8,7 @@ var after = lab.after;
 var Code = require('code');
 var expect = Code.expect;
 
-var apply = require('../apply');
+var apply = require('../src/index').apply;
 
 describe('apply', function () {
   var ctx = {};
@@ -50,4 +50,3 @@ function sum (/* args */) {
     return memo + item;
   }, 0);
 }
-

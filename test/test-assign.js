@@ -6,7 +6,7 @@ var it = lab.it;
 var Code = require('code');
 var expect = Code.expect;
 
-var assign = require('../assign');
+var assign = require('../src/index').assign;
 
 // very simple test primarily checking exportation, see npm `assign` module...
 describe('assign', function () {

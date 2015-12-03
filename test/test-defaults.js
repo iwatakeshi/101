@@ -6,7 +6,7 @@ var it = lab.it;
 var Code = require('code');
 var expect = Code.expect;
 
-var defaults = require('../defaults');
+var defaults = require('../src/').defaults;
 
 describe('defaults', function () {
   it('should provide default values for an object', function (done) {

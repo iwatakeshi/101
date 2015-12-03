@@ -6,8 +6,7 @@ var it = lab.it;
 var Code = require('code');
 var expect = Code.expect;
 
-var and = require('../and');
-
+var and = require('../src/index').and;
 describe('and', function() {
   it('should work with reduce', function (done) {
     expect([true, true, false].reduce(and)).to.equal(false);

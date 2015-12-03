@@ -1,5 +1,5 @@
 var Lab = require('lab');
-var curry = require('../curry');
+var curry = require('../src/').curry;
 var lab = exports.lab = Lab.script();
 var describe = lab.describe;
 var it = lab.it;

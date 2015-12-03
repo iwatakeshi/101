@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "./node_modules/rx/src/core/expressions/compiler.ts",
+        "./node_modules/rx/ts/rx-lite.d.ts",
+        "./node_modules/rx/ts/rx.aggregates.d.ts",
+        "./node_modules/rx/ts/rx.all.d.ts",
+        "./node_modules/rx/ts/rx.async-lite.d.ts",
+        "./node_modules/rx/ts/rx.async-tests.ts",
+        "./node_modules/rx/ts/rx.async.d.ts",
+        "./node_modules/rx/ts/rx.backpressure-lite.d.ts",
+        "./node_modules/rx/ts/rx.backpressure-tests.ts",
+        "./node_modules/rx/ts/rx.backpressure.d.ts",
+        "./node_modules/rx/ts/rx.binding-lite.d.ts",
+        "./node_modules/rx/ts/rx.binding.d.ts",
+        "./node_modules/rx/ts/rx.coincidence-lite.d.ts",
+        "./node_modules/rx/ts/rx.coincidence.d.ts",
+        "./node_modules/rx/ts/rx.d.ts",
+        "./node_modules/rx/ts/rx.experimental.d.ts",
+        "./node_modules/rx/ts/rx.joinpatterns.d.ts",
+        "./node_modules/rx/ts/rx.lite.d.ts",
+        "./node_modules/rx/ts/rx.testing.d.ts",
+        "./node_modules/rx/ts/rx.time-lite.d.ts",
+        "./node_modules/rx/ts/rx.time.d.ts",
+        "./node_modules/rx/ts/rx.virtualtime.d.ts",
+        "./src/index.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

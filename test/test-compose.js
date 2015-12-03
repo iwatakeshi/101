@@ -1,5 +1,5 @@
 var Lab = require('lab');
-var compose = require('../compose');
+var compose = require('../src/').compose;
 var lab = exports.lab = Lab.script();
 var describe = lab.describe;
 var it = lab.it;

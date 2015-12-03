@@ -1,6 +1,6 @@
 var Lab = require('lab');
-var converge = require('../converge');
-var compose = require('../compose');
+var converge = require('../src/').converge;
+var compose = require('../src/').compose;
 var lab = exports.lab = Lab.script();
 var describe = lab.describe;
 var it = lab.it;

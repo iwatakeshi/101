@@ -6,7 +6,7 @@ var it = lab.it;
 var Code = require('code');
 var expect = Code.expect;
 
-var clone = require('../clone');
+var clone = require('../src/').clone;
 
 // very simple test primarily checking exportation, see npm `clone` module...
 describe('clone', function () {

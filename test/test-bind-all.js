@@ -6,7 +6,7 @@ var it = lab.it;
 var Code = require('code');
 var expect = Code.expect;
 
-var bindAll = require('../bind-all');
+var bindAll = require('../src/').bindAll;
 
 describe('bind-all', function() {
   it('should bind all the methods', function(done) {
